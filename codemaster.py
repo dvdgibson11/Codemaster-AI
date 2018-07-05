@@ -41,6 +41,6 @@ def clue (targets, avoids, n=1):
 				heapq.heapreplace(topclues, (score, word))
 	return sorted(topclues, key=lambda x: x[0], reverse=True)
 
-
+# sample code
 candidates = clue(board[:2], [], n=5)
 print ('Top clues for pair', board[:2], ':', candidates)
