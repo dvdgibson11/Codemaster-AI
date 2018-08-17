@@ -1,3 +1,6 @@
 GoogleNews-vectors-negative300.bin
 .ipynb_checkpoints/
 __pycache__/
+wiki.en.text.model
+wiki.en.text.model.trainables.syn1neg.npy
+wiki.en.text.model.wv.vectors.npy
